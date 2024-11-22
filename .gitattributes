@@ -1,0 +1,8 @@
+# Handle text files
+* text=auto
+
+# Prevent line-ending normalization for binary files
+*.bin -text
+
+# Ignore line-ending conversion for these files
+node_modules/* -text
