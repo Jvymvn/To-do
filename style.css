@@ -170,6 +170,14 @@ h1 {
     outline: none;
 }
 
+.edit-priority {
+    margin-left: 10px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
 .delete-btn {
     background-color: #ff4d4d;
     color: white;
@@ -184,3 +192,24 @@ h1 {
 .delete-btn:hover {
     background-color: #ff1a1a;
 }
+
+#priority-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.priority-low {
+    border-left: 5px solid green;
+}
+
+.priority-medium {
+    border-left: 5px solid orange;
+}
+
+.priority-high {
+    border-left: 5px solid red;
+}
+
+
